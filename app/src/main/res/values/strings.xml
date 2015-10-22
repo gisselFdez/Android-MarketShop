@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MarketShop</string>
+    <string name="deleteAll">Delete All</string>
+    <string name="add">Add</string>
+    <string name="search">Search</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="title_activity_list_details">list_details</string>
+    <string name="hintTxtList">List name ...</string>
+    <string name="hintTxtElement">Item name ...</string>
+    <string name="hintTxtPrice">Price ...</string>
+    <string name="lblBtnAdd">Create</string>
+    <string name="lblBtnAddItem">Add </string>
+    <string name="txtEmpty">List is empty</string>
+    <string name="price">Price</string>
+    <string name="titleObligatory">You must enter a List name</string>
+    <string name="maps">Google Maps</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

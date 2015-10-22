@@ -1,0 +1,40 @@
+#
+# generated on 2015/10/14 04:06:42
+#
+# --table-start--
+dataClass=com.example.anagissel.marketshop.Entities.ShoppingList
+tableName=shoppinglist
+# --table-fields-start--
+# --field-start--
+fieldName=id_list
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=title
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.example.anagissel.marketshop.Entities.Element
+tableName=element
+# --table-fields-start--
+# --field-start--
+fieldName=id_element
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=id_list
+# --field-end--
+# --field-start--
+fieldName=description
+# --field-end--
+# --field-start--
+fieldName=isActive
+# --field-end--
+# --field-start--
+fieldName=price
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################

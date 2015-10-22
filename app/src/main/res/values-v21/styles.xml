@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--ORIGINAL Theme.AppCompat.Light-->
+    <!--android:Theme.Material.Light-->
+    <!--Final    "android:Theme.Material.Light"-->
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="android:colorPrimary">@color/primary_dark</item>
+        <item name="android:colorPrimaryDark">@color/black</item>
+        <item name="android:colorAccent">@color/accent</item>
+
+    </style>
+</resources>

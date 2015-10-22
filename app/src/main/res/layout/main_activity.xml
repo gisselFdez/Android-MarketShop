@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:clickable="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:focusableInTouchMode="true"
+        android:focusable="true"
+        android:clickable="true">
+
+        <EditText
+            android:id="@+id/txtItem"
+            android:layout_width="0dp"
+            android:layout_height="33dp"
+            android:inputType="textCapSentences"
+            android:hint="@string/hintTxtList"
+            android:layout_weight=".70"
+            android:background="@color/white"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"/>
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="0dp"
+            android:layout_height="46dp"
+            android:text="@string/lblBtnAdd"
+            android:layout_alignParentRight="true"
+            android:layout_weight=".30"
+            android:layout_centerVertical="true"/>
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id ="@+id/list_view"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:scrollbarStyle="outsideInset"
+        android:fadeScrollbars="false"
+        android:fastScrollEnabled="false">
+    </ListView>
+
+</LinearLayout>

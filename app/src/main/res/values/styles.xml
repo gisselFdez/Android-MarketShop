@@ -1,0 +1,13 @@
+<resources
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Base application theme. -->
+    <!--parent="@style/Theme.AppCompat.Light.DarkActionBar"-->
+    <!--parent="Theme.AppCompat.Light.DarkActionBar"-->
+    <!--"android:Theme.Holo.Light.DarkActionBar"-->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+
+    </style>
+
+</resources>
